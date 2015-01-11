@@ -1,0 +1,17 @@
+name: hugo-build
+version: 1.0.0
+description: |
+    runs Hugo (http://gohugo.io) bin file on the source code in order to generate the static site.
+type: build
+properties:
+    bin:
+        type: string
+        default: bin/hugo-linux
+    theme:
+        type: string
+        default: ""
+        required: false
+    flags:
+        type: string
+        default: ""
+        required: false
