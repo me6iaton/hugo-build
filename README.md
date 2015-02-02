@@ -23,7 +23,7 @@ box: wercker/default
 build:
   steps:
     - arjen/hugo-build:
-        bin: bin/hugo-linux
+        bin: bin/hugo-linux-x64
         theme: hyde
         flags: --disableSitemap=true
 ```

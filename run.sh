@@ -1,7 +1,7 @@
 #/bin/bash
 
 if [ ! -n "$WERCKER_HUGO_BUILD_BIN" ]; then
-    export WERCKER_HUGO_BUILD_BIN=bin/hugo-linux
+    export WERCKER_HUGO_BUILD_BIN=bin/hugo-linux-x64
 fi
 
 if [ ! -n "$WERCKER_HUGO_BUILD_FLAGS" ]; then
